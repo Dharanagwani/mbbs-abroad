@@ -1,0 +1,138 @@
+/* 🌟 General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 🌟 Hero Section */
+.hero {
+    background: url('images/mbbs-banner.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* 🌟 Section Styling */
+.container {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* 🌟 Country Section */
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.col-md-4 {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.col-md-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 🌟 Admission Process */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background: #e3f2fd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80%;
+}
+
+/* 🌟 Lead Form */
+#lead-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+#lead-form label {
+    font-weight: bold;
+}
+
+#lead-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#lead-form .btn-success {
+    width: 100%;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+#lead-form .btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.03);
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    ul li {
+        width: 100%;
+    }
+}
